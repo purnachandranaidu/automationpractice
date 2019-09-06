@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="13" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36052" started-at="2019-09-06T05:31:53Z" finished-at="2019-09-06T05:32:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36052" started-at="2019-09-06T05:31:53Z" finished-at="2019-09-06T05:32:29Z">
+      <class name="com.atp.testcases.BaseClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atp.testcases.BaseClass@553f17c]" name="setUp" is-config="true" duration-ms="17745" started-at="2019-09-06T11:01:35Z" finished-at="2019-09-06T11:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.atp.testcases.BaseClass -->
+      <class name="com.atp.testcases.TC_003_ViewBasket">
+        <test-method status="PASS" signature="Basket()[pri:7, instance:com.atp.testcases.TC_003_ViewBasket@4f7d0008]" name="Basket" duration-ms="12624" started-at="2019-09-06T11:02:16Z" finished-at="2019-09-06T11:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basket -->
+      </class> <!-- com.atp.testcases.TC_003_ViewBasket -->
+      <class name="com.atp.testcases.TC_001_Shop_verify">
+        <test-method status="PASS" signature="Title_Verification()[pri:1, instance:com.atp.testcases.TC_001_Shop_verify@271053e1]" name="Title_Verification" duration-ms="3928" started-at="2019-09-06T11:01:53Z" finished-at="2019-09-06T11:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title_Verification -->
+        <test-method status="PASS" signature="count_slides()[pri:2, instance:com.atp.testcases.TC_001_Shop_verify@271053e1]" name="count_slides" duration-ms="3299" started-at="2019-09-06T11:01:57Z" finished-at="2019-09-06T11:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count_slides -->
+      </class> <!-- com.atp.testcases.TC_001_Shop_verify -->
+      <class name="com.atp.testcases.TC_002_Addtocart">
+        <test-method status="PASS" signature="Additem()[pri:3, instance:com.atp.testcases.TC_002_Addtocart@589838eb]" name="Additem" duration-ms="2952" started-at="2019-09-06T11:02:00Z" finished-at="2019-09-06T11:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Additem -->
+        <test-method status="PASS" signature="Addbasket()[pri:4, instance:com.atp.testcases.TC_002_Addtocart@589838eb]" name="Addbasket" duration-ms="2817" started-at="2019-09-06T11:02:03Z" finished-at="2019-09-06T11:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addbasket -->
+        <test-method status="PASS" signature="imageclick()[pri:5, instance:com.atp.testcases.TC_002_Addtocart@589838eb]" name="imageclick" duration-ms="139" started-at="2019-09-06T11:02:06Z" finished-at="2019-09-06T11:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageclick -->
+        <test-method status="PASS" signature="popup()[pri:6, instance:com.atp.testcases.TC_002_Addtocart@589838eb]" name="popup" duration-ms="10263" started-at="2019-09-06T11:02:06Z" finished-at="2019-09-06T11:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+      </class> <!-- com.atp.testcases.TC_002_Addtocart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

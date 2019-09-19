@@ -1,14 +1,18 @@
 package com.atp.testcases;
 
+
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+
 import java.io.File;
 import java.io.IOException;
+
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -23,19 +27,24 @@ public class BaseClass {
 	
 	ReadConfig readconfig=new ReadConfig();
 	public String url=readconfig.getApplicationurl();
+	public String chrome=readconfig.getchromepath();
+	public String fire=readconfig.getfirepath();
+	public String edge=readconfig.getedgepath();
+	
 	
 	
 	@BeforeSuite
 	public void setUp()
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\EdgeDriver\\chromedriver\\chromedriver.exe");
+		
+		System.setProperty("webdriver.chrome.driver", readconfig.getchromepath());
 		driver=new ChromeDriver();
 		driver.get(url);
 		driver.manage().window().maximize();
 	}
 	
-	
-	@AfterSuite(enabled = false)
+
+	@AfterSuite
 	public void tearDown()
 	{
 		driver.close();

@@ -3,15 +3,12 @@ package com.atp.testcases;
 
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.openqa.selenium.By;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import com.atp.pageobjects.HomePage_Sliders;
 
 public class TC_001_Shop_verify extends BaseClass {
@@ -32,8 +29,7 @@ public class TC_001_Shop_verify extends BaseClass {
 				System.out.println("Page Navigated succcessfully");
 			}
 			else {
-				AssertJUnit.assertTrue(false);
-				System.out.println("Page Navigation faild");
+				throw new Exception("Page navigation fails");
 			}
 		} catch (Exception e) {
 			
@@ -42,7 +38,7 @@ public class TC_001_Shop_verify extends BaseClass {
 			capturescreen(driver,timestamp);
 			System.out.println(e.getMessage());
 			//Assert.assertTrue(false);
-			AssertJUnit.fail(e.getMessage());
+			Assert.fail(e.getMessage());
 			
 		}
 	}

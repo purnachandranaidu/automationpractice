@@ -1,17 +1,16 @@
 package com.atp.testcases;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+
 
 import com.atp.pageobjects.Addtocart;
 
@@ -43,7 +42,7 @@ public class TC_002_Addtocart extends BaseClass {
 			capturescreen(driver,timestamp);
 			System.out.println(e.getMessage());
 			//Assert.assertTrue(false);
-			AssertJUnit.fail(e.getMessage());
+			Assert.fail(e.getMessage());
 			
 		}
 		

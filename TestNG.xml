@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="practice">
-    <!-- <listeners>
+<suite name="FundRising">
+    <listeners>
         <listener class-name="com.wonderwe.utilities.Reporting"></listener>   	
-    </listeners> -->
-    <test name="automationtestingpractice test">
+    </listeners>
+    <test name="automationpractise test">
         <parameter name="browser" value="chrome"> </parameter>
         <classes>
       	<class name="com.atp.testcases.TC_001_Shop_verify"></class>
       	<class name="com.atp.testcases.TC_002_Addtocart"></class>
       	<class name="com.atp.testcases.TC_003_ViewBasket"></class>
+      	<class name="com.atp.testcases.TC_004_Checkout"></class>
+      	<class name="com.atp.testcases.TC_005_ShippingAddress"></class>
         </classes>
     </test>
 </suite>

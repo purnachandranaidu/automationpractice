@@ -29,4 +29,20 @@ public class ReadConfig {
 		
 	}
 	
+	public String getchromepath()
+	{
+		String chromepath=pro.getProperty("chromepath");
+		return chromepath;
+	}
+	public String getfirepath()
+	{
+		String getfirepath=pro.getProperty("firefox");
+		return getfirepath;
+	}
+	public String getedgepath()
+	{
+		String edgepath=pro.getProperty("Edge");
+		return edgepath;
+	}
+	
 }

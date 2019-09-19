@@ -1,8 +1,6 @@
 package com.atp.testcases;
 
 import org.testng.annotations.Test;
-
-
 import com.atp.pageobjects.ViewBasket;
 
 public class TC_003_ViewBasket extends BaseClass {

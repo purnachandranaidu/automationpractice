@@ -1,10 +1,11 @@
 package com.atp.pageobjects;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.atp.testcases.BaseClass;
+
 
 public class ShippingAaddress extends BaseClass {
 	
@@ -32,23 +33,26 @@ public class ShippingAaddress extends BaseClass {
 	}
 	public void email(String mail)
 	{
-		firsrtname.sendKeys(mail);
+		email.sendKeys(mail);
 	}
 	public void phone(String ph)
 	{
-		firsrtname.sendKeys(ph);
+		phone.sendKeys(ph);
 	}
 	public void address(String add)
 	{
-		firsrtname.sendKeys(add);
+		address.sendKeys(add);
 	}
 	public void city(String cit)
 	{
-		firsrtname.sendKeys(cit);
+		city.sendKeys(cit);
 	}
 	public void postal(String pin)
 	{
-		firsrtname.sendKeys(pin);
+		postalcode.sendKeys(pin);
 	}
+	
+	
+	
 	
 }

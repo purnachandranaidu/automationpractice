@@ -19,14 +19,13 @@ public class XLUtilities {
 
 
 	@DataProvider
-	public static String[][] registerdata(Method m) throws IOException
+	public static Object[][] registerdata(Method m) throws IOException
 	{
+		System.out.println(m.getName());
 		switch(m.getName()) {
-		/*case "signup": 
-		return readsheet(0);*/
-
-		case "Shippingaddress":
-			return readsheet(0);
+		
+		case "ShippinDetails": 
+		return readsheet(0);
 		}	
 		return null;
 	}

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FundRising">
+<suite name="Automationpractise" >
     <listeners>
-        <listener class-name="com.wonderwe.utilities.Reporting"></listener>   	
+        <listener class-name="com.atp.utilities.Reporting"></listener>   	
     </listeners>
     <test name="automationpractise test">
         <parameter name="browser" value="chrome"> </parameter>

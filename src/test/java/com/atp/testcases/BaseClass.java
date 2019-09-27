@@ -1,18 +1,14 @@
 package com.atp.testcases;
 
 
-import org.testng.annotations.AfterMethod;
-
 import java.io.File;
 import java.io.IOException;
 
-
+import org.automationtesting.excelreport.Xl;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -24,6 +20,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static String timestamp;
 	public static String errorMsg;
+	public static String testMethodName;
 	
 	ReadConfig readconfig=new ReadConfig();
 	public String url=readconfig.getApplicationurl();
@@ -44,10 +41,11 @@ public class BaseClass {
 	}
 	
 
-	@AfterSuite
-	public void tearDown()
+	@AfterSuite()
+	public void tearDown() throws Exception
 	{
-		driver.close();
+		Xl.generateReport("Xl-Report.xlsx");
+	     driver.close(); 
 	}
 	
 	public void capturescreen(WebDriver driver, String tname) throws IOException

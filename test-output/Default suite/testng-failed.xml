@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.atp.testcases.TC_001_Shop_verify">
+      <class name="com.atp.testcases.TC_005_ShippingAddress">
         <methods>
+          <include name="ShippinDetails"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="Title_Verification"/>
         </methods>
-      </class> <!-- com.atp.testcases.TC_001_Shop_verify -->
+      </class> <!-- com.atp.testcases.TC_005_ShippingAddress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

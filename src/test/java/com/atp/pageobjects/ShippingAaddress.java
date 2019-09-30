@@ -1,9 +1,12 @@
 package com.atp.pageobjects;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
 import com.atp.testcases.BaseClass;
 
 
@@ -50,6 +53,11 @@ public class ShippingAaddress extends BaseClass {
 	public void postal(String pin)
 	{
 		postalcode.sendKeys(pin);
+	}
+	public void dropdown()
+	{
+		Select drpdown=new Select(driver.findElement(By.id("s2id_autogen2_search")));
+		drpdown.selectByIndex(1);
 	}
 	
 	

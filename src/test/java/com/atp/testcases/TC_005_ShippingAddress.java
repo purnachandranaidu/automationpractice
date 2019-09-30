@@ -23,6 +23,8 @@ public class TC_005_ShippingAddress extends BaseClass {
 		address.city(town);
 		Thread.sleep(1000);
 		address.postal(zip);
+		Thread.sleep(1000);
+		/* address.dropdown(); */
 		
 		
 	}

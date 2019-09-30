@@ -45,7 +45,7 @@ public class BaseClass {
 	public void tearDown() throws Exception
 	{
 		Xl.generateReport("Xl-Report.xlsx");
-	     driver.close(); 
+		/* driver.close(); */
 	}
 	
 	public void capturescreen(WebDriver driver, String tname) throws IOException

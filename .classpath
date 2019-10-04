@@ -23,31 +23,5 @@
 			<attribute name="owner.project.facets" value="java;#system#"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/v-puchal/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar" sourcepath="C:/Users/v-puchal/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.jsoup"/>
-			<attribute name="maven.artifactId" value="jsoup"/>
-			<attribute name="maven.version" value="1.8.3"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/v-puchal/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar" sourcepath="C:/Users/v-puchal/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="xalan"/>
-			<attribute name="maven.artifactId" value="serializer"/>
-			<attribute name="maven.version" value="2.7.2"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="E:/AT Excel Report Jars/ATExcelReport.jar"/>
-	<classpathentry kind="lib" path="E:/AT Excel Report Jars/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="E:/AT Excel Report Jars/jfreechart.jar"/>
-	<classpathentry kind="lib" path="E:/AT Excel Report Jars/jfreechart-dependency-jcommon-1.0.12.jar"/>
-	<classpathentry kind="lib" path="E:/AT Excel Report Jars/poi-3.15.jar"/>
-	<classpathentry kind="lib" path="E:/AT Excel Report Jars/poi-ooxml-3.15.jar"/>
-	<classpathentry kind="lib" path="E:/AT Excel Report Jars/poi-ooxml-schemas-3.15.jar"/>
-	<classpathentry kind="lib" path="E:/AT Excel Report Jars/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

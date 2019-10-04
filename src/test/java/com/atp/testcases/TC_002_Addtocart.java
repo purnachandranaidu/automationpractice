@@ -55,7 +55,7 @@ public class TC_002_Addtocart extends BaseClass {
 		item.Addbutton();
 	}
 	
-	@Test(priority = 5)
+	@Test(priority = 5,groups = "Regression")
 	public void imageclick()
 	{
 		Addtocart item=new Addtocart();

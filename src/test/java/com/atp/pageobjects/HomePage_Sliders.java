@@ -17,11 +17,12 @@ public class HomePage_Sliders extends BaseClass
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//li[@id='menu-item-40']//a[1]") WebElement shop;
+	@FindBy(xpath="//li[@id='menu-item-40']//a[1]")
+	static WebElement shop;
 	@FindBy(xpath = "//a[text()='Home']")WebElement retunhome;
 	
 	
-	public void shop_link()
+	public static void shop_link()
 	{
 		shop.click();
 	}

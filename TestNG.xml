@@ -12,6 +12,9 @@
       	<class name="com.atp.testcases.TC_003_ViewBasket"></class>
       	<class name="com.atp.testcases.TC_004_Checkout"></class>
       	<class name="com.atp.testcases.TC_005_ShippingAddress"></class>
+      	<class name="com.atp.testcases.TC_006_FilterByPrice"></class>
+      	<class name="com.atp.testcases.TC_007_Productcat"></class>
+      	
         </classes>
     </test>
 </suite>

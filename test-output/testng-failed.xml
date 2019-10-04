@@ -7,13 +7,13 @@
   <test name="automationpractise test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.atp.testcases.TC_005_ShippingAddress">
+      <class name="com.atp.testcases.TC_007_Productcat">
         <methods>
-          <include name="ShippinDetails" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="productCat"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.atp.testcases.TC_005_ShippingAddress -->
+      </class> <!-- com.atp.testcases.TC_007_Productcat -->
     </classes>
   </test> <!-- automationpractise test(failed) -->
 </suite> <!-- Failed suite [Automationpractise] -->

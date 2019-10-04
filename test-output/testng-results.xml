@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="8" total="17" passed="8">
+<testng-results skipped="0" failed="0" ignored="12" total="23" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Automationpractise" duration-ms="47099" started-at="2019-09-27T11:32:27Z" finished-at="2019-09-27T11:33:14Z">
+  <suite name="Automationpractise" duration-ms="57675" started-at="2019-10-04T07:40:03Z" finished-at="2019-10-04T07:41:01Z">
     <groups>
+      <group name="Regression">
+        <method signature="TC_002_Addtocart.imageclick()[pri:5, instance:com.atp.testcases.TC_002_Addtocart@1ce92674]" name="imageclick" class="com.atp.testcases.TC_002_Addtocart"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="automationpractise test" duration-ms="47099" started-at="2019-09-27T11:32:27Z" finished-at="2019-09-27T11:33:14Z">
+    <test name="automationpractise test" duration-ms="57675" started-at="2019-10-04T07:40:03Z" finished-at="2019-10-04T07:41:01Z">
       <class name="com.atp.testcases.TC_004_Checkout">
-        <test-method status="PASS" signature="checkoutpage()[pri:8, instance:com.atp.testcases.TC_004_Checkout@56ac3a89]" name="checkoutpage" duration-ms="2668" started-at="2019-09-27T17:03:03Z" finished-at="2019-09-27T17:03:05Z">
+        <test-method status="PASS" signature="checkoutpage()[pri:8, instance:com.atp.testcases.TC_004_Checkout@6fd02e5]" name="checkoutpage" duration-ms="3339" started-at="2019-10-04T13:10:38Z" finished-at="2019-10-04T13:10:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutpage -->
       </class> <!-- com.atp.testcases.TC_004_Checkout -->
+      <class name="com.atp.testcases.TC_006_FilterByPrice">
+        <test-method status="PASS" signature="priceFilter()[pri:10, instance:com.atp.testcases.TC_006_FilterByPrice@e45f292]" name="priceFilter" duration-ms="7434" started-at="2019-10-04T13:10:50Z" finished-at="2019-10-04T13:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceFilter -->
+      </class> <!-- com.atp.testcases.TC_006_FilterByPrice -->
+      <class name="com.atp.testcases.TC_007_Productcat">
+        <test-method status="PASS" signature="productCat()[pri:11, instance:com.atp.testcases.TC_007_Productcat@5f2108b5]" name="productCat" duration-ms="3147" started-at="2019-10-04T13:10:58Z" finished-at="2019-10-04T13:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCat -->
+      </class> <!-- com.atp.testcases.TC_007_Productcat -->
       <class name="com.atp.testcases.TC_003_ViewBasket">
-        <test-method status="PASS" signature="Basket()[pri:7, instance:com.atp.testcases.TC_003_ViewBasket@490ab905]" name="Basket" duration-ms="12791" started-at="2019-09-27T17:02:50Z" finished-at="2019-09-27T17:03:03Z">
+        <test-method status="PASS" signature="Basket()[pri:7, instance:com.atp.testcases.TC_003_ViewBasket@5700d6b1]" name="Basket" duration-ms="12681" started-at="2019-10-04T13:10:26Z" finished-at="2019-10-04T13:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basket -->
       </class> <!-- com.atp.testcases.TC_003_ViewBasket -->
       <class name="com.atp.testcases.TC_005_ShippingAddress">
-        <test-method status="FAIL" signature="ShippinDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.atp.testcases.TC_005_ShippingAddress@27c20538]" name="ShippinDetails" duration-ms="8330" started-at="2019-09-27T17:03:06Z" data-provider="registerdata" finished-at="2019-09-27T17:03:14Z">
+        <test-method status="PASS" signature="ShippinDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.atp.testcases.TC_005_ShippingAddress@5bcab519]" name="ShippinDetails" duration-ms="7959" started-at="2019-10-04T13:10:42Z" data-provider="registerdata" finished-at="2019-10-04T13:10:50Z">
           <params>
             <param index="0">
               <value>
@@ -57,85 +72,42 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
-            <message>
-              <![CDATA[Element should have been "select" but was "input"
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'MININT-1TH8HFR', ip: '10.171.72.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'MININT-1TH8HFR', ip: '10.171.72.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.<init>(Select.java:47)
-	at com.atp.pageobjects.ShippingAaddress.dropdown(ShippingAaddress.java:59)
-	at com.atp.testcases.TC_005_ShippingAddress.ShippinDetails(TC_005_ShippingAddress.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShippinDetails -->
       </class> <!-- com.atp.testcases.TC_005_ShippingAddress -->
       <class name="com.atp.testcases.TC_001_Shop_verify">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atp.testcases.TC_001_Shop_verify@3f49dace]" name="setUp" is-config="true" duration-ms="17309" started-at="2019-09-27T17:02:10Z" finished-at="2019-09-27T17:02:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atp.testcases.TC_001_Shop_verify@7085bdee]" name="setUp" is-config="true" duration-ms="23300" started-at="2019-10-04T13:09:40Z" finished-at="2019-10-04T13:10:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Title_Verification()[pri:1, instance:com.atp.testcases.TC_001_Shop_verify@3f49dace]" name="Title_Verification" duration-ms="3726" started-at="2019-09-27T17:02:27Z" finished-at="2019-09-27T17:02:31Z">
+        <test-method status="PASS" signature="Title_Verification()[pri:1, instance:com.atp.testcases.TC_001_Shop_verify@7085bdee]" name="Title_Verification" duration-ms="3472" started-at="2019-10-04T13:10:03Z" finished-at="2019-10-04T13:10:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Title_Verification -->
-        <test-method status="PASS" signature="count_slides()[pri:2, instance:com.atp.testcases.TC_001_Shop_verify@3f49dace]" name="count_slides" duration-ms="3170" started-at="2019-09-27T17:02:31Z" finished-at="2019-09-27T17:02:34Z">
+        <test-method status="PASS" signature="count_slides()[pri:2, instance:com.atp.testcases.TC_001_Shop_verify@7085bdee]" name="count_slides" duration-ms="3556" started-at="2019-10-04T13:10:07Z" finished-at="2019-10-04T13:10:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- count_slides -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atp.testcases.TC_001_Shop_verify@3f49dace]" name="tearDown" is-config="true" duration-ms="1027" started-at="2019-09-27T17:03:14Z" finished-at="2019-09-27T17:03:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atp.testcases.TC_001_Shop_verify@7085bdee]" name="tearDown" is-config="true" duration-ms="1083" started-at="2019-10-04T13:11:01Z" finished-at="2019-10-04T13:11:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.atp.testcases.TC_001_Shop_verify -->
       <class name="com.atp.testcases.TC_002_Addtocart">
-        <test-method status="PASS" signature="Additem()[pri:3, instance:com.atp.testcases.TC_002_Addtocart@1e397ed7]" name="Additem" duration-ms="2630" started-at="2019-09-27T17:02:34Z" finished-at="2019-09-27T17:02:37Z">
+        <test-method status="PASS" signature="Additem()[pri:3, instance:com.atp.testcases.TC_002_Addtocart@1ce92674]" name="Additem" duration-ms="2898" started-at="2019-10-04T13:10:10Z" finished-at="2019-10-04T13:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Additem -->
-        <test-method status="PASS" signature="Addbasket()[pri:4, instance:com.atp.testcases.TC_002_Addtocart@1e397ed7]" name="Addbasket" duration-ms="2774" started-at="2019-09-27T17:02:37Z" finished-at="2019-09-27T17:02:39Z">
+        <test-method status="PASS" signature="Addbasket()[pri:4, instance:com.atp.testcases.TC_002_Addtocart@1ce92674]" name="Addbasket" duration-ms="2272" started-at="2019-10-04T13:10:13Z" finished-at="2019-10-04T13:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addbasket -->
-        <test-method status="PASS" signature="imageclick()[pri:5, instance:com.atp.testcases.TC_002_Addtocart@1e397ed7]" name="imageclick" duration-ms="133" started-at="2019-09-27T17:02:39Z" finished-at="2019-09-27T17:02:40Z">
+        <test-method status="PASS" signature="imageclick()[pri:5, instance:com.atp.testcases.TC_002_Addtocart@1ce92674]" name="imageclick" duration-ms="75" started-at="2019-10-04T13:10:15Z" finished-at="2019-10-04T13:10:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imageclick -->
-        <test-method status="PASS" signature="popup()[pri:6, instance:com.atp.testcases.TC_002_Addtocart@1e397ed7]" name="popup" duration-ms="10145" started-at="2019-09-27T17:02:40Z" finished-at="2019-09-27T17:02:50Z">
+        <test-method status="PASS" signature="popup()[pri:6, instance:com.atp.testcases.TC_002_Addtocart@1ce92674]" name="popup" duration-ms="10154" started-at="2019-10-04T13:10:16Z" finished-at="2019-10-04T13:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- popup -->
